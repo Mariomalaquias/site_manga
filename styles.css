@@ -1,0 +1,13 @@
+/*https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?type=design*/
+
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/card.css");
+@import url("styles/topicos.css");
+
+body {
+    background-color: aquamarine;
+    margin: 0;
+}
+

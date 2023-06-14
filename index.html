@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>estante de Mangas</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="menu__hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Shonen</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Shoujo</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Seinen</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Josei</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Jidaigeki</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Gekigá</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Hentai</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Kodomo</a></li>
+            </ul>
+            <img src="img/Logo.svg" alt="" class="container__imagem">
+        </div>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__rotulo">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Shonen</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Shoujo</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Seinen</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Josei</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Jidaigeki</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Gekigá</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Hentai</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Kodomo</a></li>
+            </ul>
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+
+        </ul>
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="coração" class="container__imagem"></a>
+            <a href="#"><img src="img/Sacola.svg" alt="" class="container__imagem"></a>
+            <a href="#"><img src="img/Usuario.svg" alt="" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o manga que precisa</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrosel__titulo">ESCOLHA SEU MANGA</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/jujutsu.jfif" alt="capa jujutsu"></div>
+            <div class="swiper-slide"><img src="img/naruto.jfif" alt="capa naruto"></div>
+            <div class="swiper-slide"><img src="img/onipeace.jfif" alt="capa onipeace"></div>
+            <div class="swiper-slide"><img src="img/titan.jfif" alt="capa onipeace"></div>
+            <div class="swiper-slide"><img src="img/torre negra.jfif" alt="capa onipeace"></div>
+            <div class="swiper-slide"><img src="img/death note.jfif" alt="capa onipeace"></div>
+            <div class="swiper-slide"><img src="img/soul.jfif" alt="capa onipeace"></div>
+            </div>
+
+            <input type="email" name="" id="">
+            
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    </section>
+
+    <div class="card">
+        <div class="card__div1">
+            <h2 class="card__h">Talvez você também se interesse por...</h2>
+            <h2 class="card__h2">Quadrinhos da Marvel</h2>
+            <p class="card_paragrafo">Quadrinhos com formato diferente de manga feitos no formato americano</p>
+        </div>
+        <div class="card__div2">
+            <img src="img/Marvel.jfif" class="card_img" alt="Marvel thor">
+            <a class="card__botao" href="#">Saiba mais</a>
+        </div>
+    </div>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item"><a  href="#" class="topicos__link" >Naruto</a></li>
+            <li class="topicos__item"><a  href="#" class="topicos__link">Boruto</a></li>
+            <li class="topicos__item"><a  href="#" class="topicos__link">Samurai X</a></li>
+            <li class="topicos__item"><a  href="#" class="topicos__link">One Piece</a></li>
+            <li class="topicos__item"><a  href="#" class="topicos__link">Detective Conan</a></li>
+            <li class="topicos__item"><a class="topicos__link" href="#">Astro Boy</a></li>
+            <li class="topicos__item"><a class="topicos__link" href="#">Demon Slayer</a></li>
+            <li class="topicos__item"><a class="topicos__link" href="#">Dr. Stone</a></li>
+            <li class="topicos__item"><a class="topicos__link" href="#">Jujutsu Kaisen</a></li>
+
+        </ul>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        },
+        });
+    </script>
+</body>
+</html>

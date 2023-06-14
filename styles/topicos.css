@@ -1,0 +1,35 @@
+
+
+.topicos {
+
+    background: linear-gradient(blue, yellow, blue);
+}
+.topicos__titulo {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    padding-top: 1em;
+}
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.topicos__item {
+    margin: 2em 0.5em;
+    list-style-type: none;
+}
+
+.topicos__link {
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding: 0.7em;
+    border-radius: 10px;
+    
+}
+.topicos__link:hover {
+    background-color: white;
+    color: black;
+}
